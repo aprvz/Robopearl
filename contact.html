@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact &amp; Enquiry | Robopearl Australia</title>
+  <meta name="description" content="Enquire to buy or trial a Robopearl restaurant robot. Book a floor demo for your Australian venue." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/robopearl-logo.jpg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/robopearl-logo.jpg" alt="Robopearl logo" />
+        <span class="brand-text">
+          <span class="brand-name">Robopearl</span>
+          <span class="brand-tag">Australia</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Robot Catalogue</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="contact.html">Book a Floor Demo</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero container">
+    <p class="eyebrow">Contact</p>
+    <h1>Enquire to buy — or book a quiet floor demo.</h1>
+    <p>Tell us about your restaurant. We reply with a recommended robot, indicative Australian pricing, and two times for a 20-minute visit between services. No obligation.</p>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container contact-grid">
+      <aside class="contact-aside reveal">
+        <h2>Speak with Robopearl</h2>
+        <p style="color:var(--muted)">Serving restaurant owners across Australia, with Sydney as our primary install corridor.</p>
+        <ul class="contact-meta">
+          <li>
+            <strong>Email</strong>
+            <a href="mailto:hello@robopearl.com.au">hello@robopearl.com.au</a>
+          </li>
+          <li>
+            <strong>Market</strong>
+            Australia — restaurants, hotels &amp; high-volume dining
+          </li>
+          <li>
+            <strong>What to expect</strong>
+            Floor assessment · Mapping · Training · Parts pathway
+          </li>
+          <li>
+            <strong>Buying options</strong>
+            Outright purchase or robots-as-a-service plans on request
+          </li>
+        </ul>
+        <div style="margin-top:2rem">
+          <img src="assets/scenes/scene-greeting.jpg" alt="Greeting robot welcoming restaurant guests" style="width:100%;max-height:280px;object-fit:cover" />
+        </div>
+      </aside>
+
+      <div class="enquiry-form reveal">
+        <div class="form-success" role="status">Thank you — your enquiry has been prepared. If your email app opened, press Send. We will reply shortly.</div>
+        <form id="enquiry-form" action="https://formsubmit.co/ba.prvz@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Robopearl website enquiry" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="restaurant">Restaurant / group</label>
+              <input id="restaurant" name="restaurant" type="text" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="city">City</label>
+              <input id="city" name="city" type="text" placeholder="e.g. Sydney" />
+            </div>
+            <div class="field">
+              <label for="interest">Robot interest</label>
+              <select id="interest" name="interest">
+                <option value="Not sure — recommend for my floor">Not sure — recommend for my floor</option>
+                <option value="Pearl Belle">Pearl Belle</option>
+                <option value="Pearl Host">Pearl Host</option>
+                <option value="Pearl Runner">Pearl Runner</option>
+                <option value="Pearl Collector">Pearl Collector</option>
+                <option value="Pearl Swift">Pearl Swift</option>
+                <option value="Pearl Diner">Pearl Diner</option>
+                <option value="Multiple robots / fleet">Multiple robots / fleet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Tell us about service volume or challenges</label>
+            <textarea id="message" name="message" rows="5" placeholder="Covers, cuisine, peak times, aisle concerns…"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send enquiry</button>
+          <p class="form-note">Enquiries are emailed to the Robopearl team. First submission may ask you to confirm the inbox via FormSubmit. Prefer email? Write to <a href="mailto:hello@robopearl.com.au">hello@robopearl.com.au</a>. We honour unsubscribe requests under Australia’s Spam Act 2003.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">Robopearl</div>
+        <p>Restaurant robotics for Australia.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Catalogue</a>
+        <a href="mailto:hello@robopearl.com.au">hello@robopearl.com.au</a>
+      </div>
+      <p class="footer-copy">© 2026 Robopearl.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
