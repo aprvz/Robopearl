@@ -41,6 +41,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const form = document.querySelector("#enquiry-form");
   if (form) {
+    const params = new URLSearchParams(window.location.search);
+    const robot = params.get("robot");
+    const interest = form.querySelector("#interest");
+    if (robot && interest) {
+      const match = Array.from(interest.options).find((o) =>
+        o.value.toLowerCase().includes(robot.toLowerCase())
+      );
+      if (match) interest.value = match.value;
+    }
     form.addEventListener("submit", () => {
       const success = document.querySelector(".form-success");
       if (success) success.classList.add("show");

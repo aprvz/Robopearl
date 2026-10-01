@@ -406,6 +406,12 @@ p {
   gap: 1.5rem;
 }
 
+@media (min-width: 961px) {
+  .catalog-grid.catalog-ten {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .robot-tile {
   display: flex;
   flex-direction: column;
