@@ -2,11 +2,16 @@
 
 Australian restaurant robotics website for **Robopearl** — supplying commercial delivery, greeting and dish-collection robots to restaurant owners.
 
-## Live site
-
-Once GitHub Pages is enabled on the `main` branch (root), the public URL is:
+## Live site (permanent public URL)
 
 **https://aprvz.github.io/Robopearl/**
+
+Enable hosting once (required):
+
+1. Open https://github.com/aprvz/Robopearl/settings/pages  
+2. Under **Build and deployment → Source**, choose **GitHub Actions**  
+   (or **Deploy from a branch** → `main` → `/ (root)` → Save)  
+3. Wait 1–2 minutes, then open the URL above and share it.
 
 ## Pages
 
