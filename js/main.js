@@ -50,7 +50,16 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       if (match) interest.value = match.value;
     }
+
+    if (params.get("sent") === "1") {
+      const success = document.querySelector(".form-success");
+      if (success) success.classList.add("show");
+    }
+
+    const emailInput = form.querySelector("#email");
+    const replyto = form.querySelector("#replyto-field");
     form.addEventListener("submit", () => {
+      if (emailInput && replyto) replyto.value = emailInput.value;
       const success = document.querySelector(".form-success");
       if (success) success.classList.add("show");
     });
