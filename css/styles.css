@@ -431,14 +431,17 @@ p {
   background:
     radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.9), transparent 45%),
     linear-gradient(160deg, #e7eeec 0%, #d5e0dc 55%, #c9d6d1 100%);
-  display: grid;
-  place-items: center;
-  padding: 1.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
 }
 
 .robot-tile-media img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   object-position: center;
   transition: transform 0.7s ease;
@@ -557,14 +560,17 @@ p {
   background:
     radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.95), transparent 50%),
     linear-gradient(165deg, #eaf0ee 0%, #d8e3df 100%);
-  display: grid;
-  place-items: center;
-  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.75rem;
 }
 
 .detail-gallery .main-shot img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   object-position: center;
 }
@@ -577,12 +583,15 @@ p {
 
 .detail-thumbs button {
   border: 1px solid transparent;
-  padding: 0.35rem;
+  padding: 0.4rem;
   background:
     linear-gradient(160deg, #eef3f1 0%, #dce6e2 100%);
   cursor: pointer;
   aspect-ratio: 1 / 1;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail-thumbs button.active,
@@ -591,8 +600,10 @@ p {
 }
 
 .detail-thumbs img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   object-position: center;
 }
@@ -973,9 +984,10 @@ p {
 
 .brand-roster-media {
   aspect-ratio: 1 / 1;
-  display: grid;
-  place-items: center;
-  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.35rem;
   background:
     radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.95), transparent 45%),
     linear-gradient(160deg, #e7eeec 0%, #d5e0dc 55%, #c9d6d1 100%);
@@ -983,8 +995,10 @@ p {
 }
 
 .brand-roster-media img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   object-position: center;
   transition: transform 0.6s ease;
