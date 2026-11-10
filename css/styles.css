@@ -105,6 +105,15 @@ p {
   border: 1px solid rgba(184, 149, 108, 0.45);
 }
 
+.brand img.brand-lockup {
+  width: auto;
+  height: 52px;
+  max-width: min(220px, 55vw);
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+}
+
 .brand-text {
   display: flex;
   flex-direction: column;
@@ -1350,4 +1359,185 @@ p {
   .brand-hero-content {
     padding: 3rem 0 3.5rem;
   }
+}
+
+
+/* Brand lockup logo (full Robo Pearl wordmark + mascot) */
+.brand-logo-only {
+  gap: 0;
+}
+.brand-lockup {
+  height: 52px;
+  width: auto;
+  max-width: min(220px, 55vw);
+  object-fit: contain;
+  border-radius: 0 !important;
+  border: none !important;
+}
+.brand-logo-only .brand-text { display: none; }
+
+/* Compare — Apple-style "which is right for you" */
+.compare-hero {
+  padding: 2.5rem 0 1rem;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.compare-hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--teal-deep);
+  margin: 0.4rem 0 0.75rem;
+}
+.compare-hero p {
+  color: var(--muted);
+  margin: 0 auto;
+}
+
+.compare-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: center;
+  margin: 0 0 2.5rem;
+}
+
+.compare-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.4rem 0.85rem 0.4rem 0.4rem;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.72);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--ink);
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+.compare-chip img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  background: linear-gradient(160deg, #e7eeec, #d5e0dc);
+  padding: 0.2rem;
+}
+.compare-chip:hover { border-color: var(--teal-soft); }
+.compare-chip.active {
+  border-color: var(--teal);
+  background: rgba(19, 71, 64, 0.08);
+  box-shadow: 0 0 0 1px var(--teal);
+}
+.compare-chip.active span { font-weight: 600; color: var(--teal-deep); }
+
+.compare-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+  align-items: stretch;
+}
+
+.compare-card {
+  text-align: center;
+  padding: 1.25rem 1rem 1.5rem;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(184,149,108,0.12), transparent 55%),
+    rgba(255,255,255,0.55);
+  border-bottom: 1px solid var(--line);
+}
+.compare-card-media {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.95), transparent 45%),
+    linear-gradient(160deg, #e7eeec 0%, #d5e0dc 100%);
+}
+.compare-card-media img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.compare-card h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  color: var(--teal-deep);
+  margin: 0.2rem 0 0.35rem;
+}
+.compare-tagline {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+  min-height: 2.6em;
+}
+.compare-lease {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.25rem 0 0.85rem;
+}
+.compare-best {
+  font-size: 0.88rem;
+  text-align: left;
+  margin: 0 0 1rem;
+  color: var(--ink);
+  min-height: 4.2em;
+}
+.compare-best strong {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--champagne);
+  margin-bottom: 0.25rem;
+}
+
+.compare-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border-top: 1px solid var(--line);
+}
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  min-width: 640px;
+}
+.compare-table th,
+.compare-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.compare-table thead th {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--teal-deep);
+  background: rgba(19, 71, 64, 0.06);
+  position: sticky;
+  top: 0;
+}
+.compare-table tbody th {
+  font-weight: 500;
+  color: var(--muted);
+  width: 9.5rem;
+  white-space: nowrap;
+}
+.compare-table tbody tr:hover td,
+.compare-table tbody tr:hover th {
+  background: rgba(184, 149, 108, 0.06);
+}
+.compare-cta {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+@media (max-width: 720px) {
+  .brand-lockup { height: 44px; }
+  .compare-board { grid-template-columns: 1fr; }
 }
