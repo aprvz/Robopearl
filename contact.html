@@ -3,29 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact &amp; Enquiry | Robopearl Australia</title>
-  <meta name="description" content="Enquire to buy or trial a real Australian-market restaurant robot — Pudu or Keenon. Book a floor demo for your venue." />
+  <title>Contact &amp; Enquiry | Robo Pearl Australia</title>
+  <meta name="description" content="Enquire about PuduBot 2, SwiftBot, BellaBot, PuduBot, HolaBot or KettyBot. Book a floor demo — enquiry@robopearl.com." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=2">
-  <link rel="icon" href="assets/robopearl-logo.jpg" />
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="icon" href="assets/robopearl-logo.png" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-inner">
-      <a class="brand" href="index.html">
-        <img src="assets/robopearl-logo.jpg" alt="Robopearl logo" />
-        <span class="brand-text">
-          <span class="brand-name">Robopearl</span>
-          <span class="brand-tag">Australia</span>
-        </span>
+      <a class="brand brand-logo-only" href="index.html">
+        <img src="assets/robopearl-logo.png" alt="Robo Pearl" class="brand-lockup" />
       </a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="catalog.html">Robot Catalogue</a></li>
-        <li><a href="brands/index.html">Brands</a></li>
+        <li><a href="robots.html">Robots</a></li>
+        <li><a href="compare.html">Compare</a></li>
         <li><a class="active" href="contact.html">Contact</a></li>
         <li><a class="nav-cta" href="contact.html">Book a Floor Demo</a></li>
       </ul>
@@ -41,12 +37,12 @@
   <section class="section" style="padding-top:0">
     <div class="container contact-grid">
       <aside class="contact-aside reveal">
-        <h2>Speak with Robopearl</h2>
-        <p style="color:var(--muted)">Serving restaurant owners across Australia, with Sydney as our primary install corridor.</p>
+        <h2>Speak with Robo Pearl</h2>
+        <p style="color:var(--muted)">Serving restaurant owners across Australia. Enquiries go to our brand inbox.</p>
         <ul class="contact-meta">
           <li>
             <strong>Email</strong>
-            <a href="mailto:ba.prvz@gmail.com">ba.prvz@gmail.com</a>
+            <a href="mailto:enquiry@robopearl.com">enquiry@robopearl.com</a>
           </li>
           <li>
             <strong>Market</strong>
@@ -58,7 +54,7 @@
           </li>
           <li>
             <strong>Buying options</strong>
-            Outright purchase or robots-as-a-service plans on request
+            Outright purchase or rent-to-own plans (AUD)
           </li>
         </ul>
         <div style="margin-top:2rem">
@@ -67,12 +63,13 @@
       </aside>
 
       <div class="enquiry-form reveal">
-        <div class="form-success" role="status">Thank you — your enquiry has been sent to ba.prvz@gmail.com. We will reply shortly.</div>
-        <form id="enquiry-form" action="https://formsubmit.co/ba.prvz@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="Robopearl website enquiry" />
+        <div class="form-success" role="status">Thank you — your enquiry has been sent to enquiry@robopearl.com. We will reply shortly.</div>
+        <form id="enquiry-form" action="https://formsubmit.co/enquiry@robopearl.com" method="POST">
+          <input type="hidden" name="_subject" value="Robo Pearl website enquiry" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_next" value="https://robopearl.com/contact.html?sent=1" />
+          <input type="hidden" name="_replyto" id="replyto-field" value="" />
           <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
           <div class="form-row">
             <div class="field">
@@ -80,49 +77,38 @@
               <input id="name" name="name" type="text" required autocomplete="name" />
             </div>
             <div class="field">
-              <label for="restaurant">Restaurant / group</label>
-              <input id="restaurant" name="restaurant" type="text" required />
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
             </div>
           </div>
           <div class="form-row">
-            <div class="field">
-              <label for="email">Work email</label>
-              <input id="email" name="email" type="email" required autocomplete="email" />
-              <input type="hidden" name="_replyto" id="replyto-field" value="" />
-            </div>
             <div class="field">
               <label for="phone">Phone</label>
               <input id="phone" name="phone" type="tel" autocomplete="tel" />
             </div>
-          </div>
-          <div class="form-row">
             <div class="field">
-              <label for="city">City</label>
-              <input id="city" name="city" type="text" placeholder="e.g. Sydney" />
-            </div>
-            <div class="field">
-              <label for="interest">Robot interest</label>
-              <select id="interest" name="interest">
-                <option value="Not sure — recommend for my floor">Not sure — recommend for my floor</option>
-                <option value="BellaBot Pro">BellaBot Pro</option>
-                <option value="KettyBot Pro">KettyBot Pro</option>
-                <option value="PuduBot 2">PuduBot 2</option>
-                <option value="HolaBot">HolaBot</option>
-                <option value="FlashBot Max">FlashBot Max</option>
-                <option value="SwiftBot">SwiftBot</option>
-                <option value="BellaBot">BellaBot</option>
-                <option value="RoboWaiter R2">RoboWaiter R2</option>
-                <option value="GEORGE ROBOT">GEORGE ROBOT</option>
-                <option value="Multiple robots / fleet">Multiple robots / fleet</option>
-              </select>
+              <label for="venue">Venue / business</label>
+              <input id="venue" name="venue" type="text" autocomplete="organization" />
             </div>
           </div>
           <div class="field">
-            <label for="message">Tell us about service volume or challenges</label>
-            <textarea id="message" name="message" rows="5" placeholder="Covers, cuisine, peak times, aisle concerns…"></textarea>
+            <label for="interest">Robot interest</label>
+            <select id="interest" name="interest">
+              <option value="">Not sure yet — help me choose</option>
+              <option>PuduBot 2</option>
+              <option>SwiftBot</option>
+              <option>BellaBot</option>
+              <option>PuduBot</option>
+              <option>HolaBot</option>
+              <option>KettyBot</option>
+              <option>Floor demo / trial</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Covers, venue type, purchase vs lease, preferred demo times…"></textarea>
           </div>
           <button class="btn btn-primary" type="submit">Send enquiry</button>
-          <p class="form-note">Enquiries are sent to <a href="mailto:ba.prvz@gmail.com">ba.prvz@gmail.com</a>. The first submission may require a one-time confirmation email from FormSubmit in that inbox — open it and click Activate. We honour unsubscribe requests under Australia’s Spam Act 2003.</p>
         </form>
       </div>
     </div>
@@ -131,15 +117,16 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div>
-        <div class="footer-brand">Robopearl</div>
-        <p>Restaurant robotics for Australia.</p>
+        <div class="footer-brand">Robo Pearl</div>
+        <p>Restaurant robots for Australia.</p>
       </div>
       <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="catalog.html">Catalogue</a>
-        <a href="mailto:ba.prvz@gmail.com">ba.prvz@gmail.com</a>
+        <a href="robots.html">Robots</a>
+        <a href="compare.html">Compare</a>
+        <a href="contact.html">Contact</a>
+        <a href="mailto:enquiry@robopearl.com">enquiry@robopearl.com</a>
       </div>
-      <p class="footer-copy">© 2026 Robopearl.</p>
+      <p class="footer-copy">© 2026 Robo Pearl. Form enquiries are delivered to enquiry@robopearl.com.</p>
     </div>
   </footer>
   <script src="js/main.js"></script>
