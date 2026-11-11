@@ -8,7 +8,7 @@ Australian restaurant robotics website — static site for GitHub Pages (`robope
 - `compare.html` — Which robot is right for you?
 - `contact.html` — Enquiry form → `enquiry@robopearl.com`
 
-## Robots (botHUB-sourced)
+## Robots
 PuduBot 2 · SwiftBot · BellaBot · PuduBot · HolaBot · KettyBot
 
 ## Deploy
