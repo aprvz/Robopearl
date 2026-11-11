@@ -10,7 +10,6 @@ window.ROBOPEARL_ROBOTS = [
     priceLabel: "A$14,990 inc GST",
     lease: "From A$32 / day (2 yr) · A$38 / day (1 yr)",
     image: "pudubot-2.jpg",
-    sourceUrl: "https://bothub.com.au/product/pudubot2/",
     bestFor: "Restaurants & venues wanting a reliable all-rounder at the best entry price",
     compare: {
       foodRunning: "Excellent",
@@ -44,8 +43,7 @@ window.ROBOPEARL_ROBOTS = [
       Runtime: "10–24 h",
       Charging: "3 h (auto-charge supported)",
       "Path clearance": "80 cm min",
-      Speed: "0.5–1.2 m/s",
-      Source: "botHUB — bothub.com.au/product/pudubot2/"
+      Speed: "0.5–1.2 m/s"
     }
   },
   {
@@ -59,7 +57,6 @@ window.ROBOPEARL_ROBOTS = [
     priceLabel: "A$26,000 inc GST",
     lease: "From A$45 / day (2 yr) · A$50 / day (1 yr)",
     image: "swiftbot.jpg",
-    sourceUrl: "https://bothub.com.au/product/swiftbot/",
     bestFor: "Busy dining rooms that need safer, smarter navigation around guests",
     compare: {
       foodRunning: "Excellent",
@@ -93,8 +90,7 @@ window.ROBOPEARL_ROBOTS = [
       Runtime: "10–24 h",
       Charging: "3 h (auto-charge)",
       "Path clearance": "80 cm min",
-      Speed: "0.5–1.2 m/s",
-      Source: "botHUB — bothub.com.au/product/swiftbot/"
+      Speed: "0.5–1.2 m/s"
     }
   },
   {
@@ -108,7 +104,6 @@ window.ROBOPEARL_ROBOTS = [
     priceLabel: "A$19,900 inc GST",
     lease: "From A$38 / day (2 yr) · A$45 / day (1 yr)",
     image: "bellabot.jpg",
-    sourceUrl: "https://bothub.com.au/product/bellabot/",
     bestFor: "Front-of-house venues that want guest theatre and social media wow",
     compare: {
       foodRunning: "Excellent",
@@ -141,8 +136,7 @@ window.ROBOPEARL_ROBOTS = [
       Runtime: "12–24 h (replaceable battery)",
       Charging: "4.5 h",
       Speed: "0.5–1.2 m/s",
-      "Path clearance": "70 cm min",
-      Source: "botHUB — bothub.com.au/product/bellabot/"
+      "Path clearance": "70 cm min"
     }
   },
   {
@@ -152,11 +146,10 @@ window.ROBOPEARL_ROBOTS = [
     role: "Classic autonomous delivery",
     tagline: "Best-selling commercial service robot",
     summary:
-      "Proven Pudu delivery workhorse for restaurants and businesses. Up to 30 kg load (13 kg/tray), adjustable cruise speed, optional dish cover, and rent-to-own from A$28/day with free install on rental plans via botHUB.",
+      "Proven Pudu delivery workhorse for restaurants and businesses. Up to 30 kg load (13 kg/tray), adjustable cruise speed, optional dish cover, and rent-to-own from A$28/day with install options on rental plans.",
     priceLabel: "A$12,000 inc GST",
     lease: "From A$28 / day (2 yr) · A$32 / day (1 yr)",
     image: "pudubot.jpg",
-    sourceUrl: "https://bothub.com.au/product/pudubot/",
     bestFor: "Budget-conscious venues wanting a proven runner with rent-to-own",
     compare: {
       foodRunning: "Excellent",
@@ -188,8 +181,7 @@ window.ROBOPEARL_ROBOTS = [
       Charging: "4 h",
       Speed: "0.5–1.2 m/s adjustable",
       Material: "ABS / aviation-grade aluminium",
-      "Dish cover": "Optional · 422 × 422 × 710 mm",
-      Source: "botHUB — bothub.com.au/product/pudubot/"
+      "Dish cover": "Optional · 422 × 422 × 710 mm"
     }
   },
   {
@@ -203,7 +195,6 @@ window.ROBOPEARL_ROBOTS = [
     priceLabel: "A$22,000 inc GST",
     lease: "From A$50 / day (2 yr) · A$55 / day (1 yr)",
     image: "holabot.jpg",
-    sourceUrl: "https://bothub.com.au/product/holabot/",
     bestFor: "Hotpot, buffet, yum cha — continuous dish return and heavy running",
     compare: {
       foodRunning: "Strong",
@@ -236,8 +227,7 @@ window.ROBOPEARL_ROBOTS = [
       Runtime: "10–24 h (power exchangeable)",
       Charging: "4.5 h",
       Speed: "0.5–1.2 m/s",
-      Waterproof: "IP67",
-      Source: "botHUB — bothub.com.au/product/holabot/"
+      Waterproof: "IP67"
     }
   },
   {
@@ -251,7 +241,6 @@ window.ROBOPEARL_ROBOTS = [
     priceLabel: "A$13,500 inc GST",
     lease: "From A$26 / day (2 yr) · A$30 / day (1 yr)",
     image: "kettybot.jpg",
-    sourceUrl: "https://bothub.com.au/product/kettybot/",
     bestFor: "Malls, cafés and FOH that want ads + greeting + light delivery",
     compare: {
       foodRunning: "Good",
@@ -284,8 +273,7 @@ window.ROBOPEARL_ROBOTS = [
       Charging: "4.5 h",
       Speed: "Max 1.2 m/s",
       Clearance: "55 cm",
-      "Ad display": "18.5″",
-      Source: "botHUB — bothub.com.au/product/kettybot/"
+      "Ad display": "18.5″"
     }
   }
 ];
